@@ -40,7 +40,7 @@ parser.add_argument('-test_episode', type=int, default=5000, help='number of tes
 parser.add_argument('-pretrain_dir', type=str, default=PRETRAIN_DIR)
 parser.add_argument('-metric', type=str, default='cosine', choices=['cosine'])
 parser.add_argument('-norm', type=str, default='center', choices=['center'], help='feature normalization')
-parser.add_argument('-deepemd', type=str, default='sampling', choices=['fcn', 'grid', 'sampling'])
+parser.add_argument('-deepemd', type=str, default='sampling', choices=['fcn', 'sampling'])
 #deepemd fcn only
 parser.add_argument('-feature_pyramid', type=str, default=None, help='you can set it like: 2,3')
 #deepemd sampling only

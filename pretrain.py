@@ -40,7 +40,7 @@ parser.add_argument('-save_all', action='store_true', help='save models on each 
 parser.add_argument('-random_val_task', action='store_true', help='random samples tasks for validation in each epoch')
 # about deepemd setting
 parser.add_argument('-norm', type=str, default='center', choices=[ 'center'])
-parser.add_argument('-deepemd', type=str, default='fcn', choices=['fcn', 'grid', 'sampling'])
+parser.add_argument('-deepemd', type=str, default='fcn', choices=['fcn', 'sampling'])
 parser.add_argument('-feature_pyramid', type=str, default=None)
 parser.add_argument('-solver', type=str, default='opencv', choices=['opencv'])
 # about training
